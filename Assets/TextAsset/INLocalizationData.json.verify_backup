@@ -1,0 +1,879 @@
+{
+	"data": [
+		{
+			"id": "AppInterface_AppName",
+			"text": {
+				"en-US": "BP",
+				"zh-Hans": "新创"
+			}
+		},
+		{
+			"id": "AppInterface_Name",
+			"text": {
+				"en-US": "App Interface",
+				"zh-Hans": "应用界面"
+			}
+		},
+		{
+			"id": "AppInterface_Settings",
+			"text": {
+				"en-US": "Settings",
+				"zh-Hans": "设置界面"
+			}
+		},
+		{
+			"id": "AppInterface_CommandSystem",
+			"text": {
+				"en-US": "Command System",
+				"zh-Hans": "指令系统"
+			}
+		},
+		{
+			"id": "AppInterface_DataPanel",
+			"text": {
+				"en-US": "Data Panel",
+				"zh-Hans": "数据界面"
+			}
+		},
+        {
+			"id": "AppInterface_AddonSystem",
+			"text": {
+				"en-US": "Add-on System",
+				"zh-Hans": "插件系统"
+			}
+		},
+		{
+			"id": "AppInterface_StarSea",
+			"text": {
+				"en-US": "Star Sea Settings",
+				"zh-Hans": "星海设置"
+			}
+		},
+		{
+			"id": "AppInterface_PartAdjust",
+			"text": {
+				"en-US": "More Settings",
+				"zh-Hans": "更多设置"
+			}
+		},
+		{
+			"id": "AppInterface_MoreCustom",
+			"text": {
+				"en-US": "More Custom",
+				"zh-Hans": "更多自定义"
+			}
+		},
+		{
+			"id": "PartAdjustSettings_Name",
+			"text": {
+				"en-US": "Part Adjust Settings",
+				"zh-Hans": "部件调整设置"
+			}
+		},
+		{
+			"id": "StarSeaSettings_Name",
+			"text": {
+				"en-US": "Star Sea Settings",
+				"zh-Hans": "星海设置"
+			}
+		},
+		{
+			"id": "StarSeaSettings_Performance",
+			"text": {
+				"en-US": "Performance",
+				"zh-Hans": "性能优化"
+			}
+		},
+		{
+			"id": "StarSeaSettings_Behavior",
+			"text": {
+				"en-US": "Physics Behavior",
+				"zh-Hans": "物理行为"
+			}
+		},
+		{
+			"id": "StarSeaSettings_GunProjectileDrag",
+			"text": {
+				"en-US": "Gun Projectile Drag",
+				"zh-Hans": "机炮子弹阻力"
+			}
+		},
+		{
+			"id": "StarSeaSettings_PartDrag",
+			"text": {
+				"en-US": "Part Drag",
+				"zh-Hans": "部件阻力"
+			}
+		},
+		{
+			"id": "StarSeaSettings_PartAngularDrag",
+			"text": {
+				"en-US": "Part Angular Drag",
+				"zh-Hans": "部件角阻力"
+			}
+		},
+		{
+			"id": "StarSeaSettings_ShowFPS",
+			"text": {
+				"en-US": "Show FPS",
+				"zh-Hans": "显示帧率"
+			}
+		},
+		{
+			"id": "StarSeaSettings_TargetFrameRate",
+			"text": {
+				"en-US": "Target Frame Rate",
+				"zh-Hans": "渲染帧率上限"
+			}
+		},
+		{
+			"id": "StarSeaSettings_FixedFrameRate",
+			"text": {
+				"en-US": "Fixed Frame Rate",
+				"zh-Hans": "物理计算帧率"
+			}
+		},
+		{
+			"id": "StarSeaSettings_CircuitFrameRate",
+			"text": {
+				"en-US": "Circuit Frame Rate",
+				"zh-Hans": "电路系统计算帧率"
+			}
+		},
+		{
+			"id": "StarSeaSettings_FrameFrameRate",
+			"text": {
+				"en-US": "Frame Frame Rate [Experimental]",
+				"zh-Hans": "框架系统计算帧率 [实验]"
+			}
+		},
+		{
+			"id": "StarSeaSettings_AntiTunnelSpeedThreshold",
+			"text": {
+				"en-US": "Anti-Tunnel Relative Speed Threshold",
+				"zh-Hans": "防过穿相对速度阈值"
+			}
+		},
+		{
+			"id": "StarSeaSettings_AntiTunnelPullBackDistance",
+			"text": {
+				"en-US": "Anti-Tunnel Pullback Distance",
+				"zh-Hans": "防过穿拉回距离阈值"
+			}
+		},
+		{
+			"id": "StarSeaSettings_UseMultithreadFrameSolver",
+			"text": {
+				"en-US": "Use Multithread Frame Solver [Experimental]",
+				"zh-Hans": "多线程框架配对 [实验]"
+			}
+		},
+		{
+			"id": "StarSeaSettings_EnableMultithreadCircuit",
+			"text": {
+				"en-US": "Multithread Circuit Solver [Experimental]",
+				"zh-Hans": "多线程电路求解 [实验]"
+			}
+		},
+		{
+			"id": "StarSeaSettings_PhysicsSolverIterations",
+			"text": {
+				"en-US": "Physics Solver Iterations",
+				"zh-Hans": "物理求解迭代数"
+			}
+		},
+		{
+			"id": "StarSeaSettings_AdaptivePhysicsFrame",
+			"text": {
+				"en-US": "Adaptive Physics Frame (0=off) (frame rate below threshold triggers performance optimization)",
+				"zh-Hans": "自适应物理帧 (0=关闭)（帧率低于该阈值介入优化性能）"
+			}
+		},
+		{
+			"id": "StarSeaSettings_AdaptivePhysicsFrameMin",
+			"text": {
+				"en-US": "Adaptive Physics Frame Min (0=no limit; too low loses accuracy)",
+				"zh-Hans": "自适应物理帧下限 (0=不限；过低会造成精度丢失)"
+			}
+		},
+		{
+			"id": "StarSeaSettings_MechanicalGate",
+			"text": {
+				"en-US": "Mechanical Gate",
+				"zh-Hans": "机械门"
+			}
+		},
+		{
+			"id": "StarSeaSettings_GateWidthCoefficient",
+			"text": {
+				"en-US": "Gate Width Coefficient",
+				"zh-Hans": "长度系数"
+			}
+		},
+		{
+			"id": "StarSeaSettings_GateLengthCoefficients",
+			"text": {
+				"en-US": "Gate Length Coefficients (5 types, comma separated)",
+				"zh-Hans": "宽度系数 (5种门,逗号分隔)"
+			}
+		},
+		{
+			"id": "StarSeaSettings_GateOpacity",
+			"text": {
+				"en-US": "Gate Opacity (0.0~1.0)",
+				"zh-Hans": "透明度 (0.0~1.0)"
+			}
+		},
+		{
+			"id": "StarSeaSettings_GateDefaultLengths",
+			"text": {
+				"en-US": "Gate Fixed Lengths (type 1~4)",
+				"zh-Hans": "默认长度 (4种固定门,逗号分隔)"
+			}
+		},
+		{
+			"id": "StarSeaSettings_GateAdjustableRange",
+			"text": {
+				"en-US": "Gate Adjustable Range (min,max,step)",
+				"zh-Hans": "可调长度与步进值 (min,max,step)"
+			}
+		},
+		{
+			"id": "StarSeaSettings_GateExtensionSpeed",
+			"text": {
+				"en-US": "Gate Extension Speed",
+				"zh-Hans": "伸出速度"
+			}
+		},
+		{
+			"id": "ContraptionDataSettings_SlotSpacing",
+			"text": {
+				"en-US": "Save Slot Spacing",
+				"zh-Hans": "存档间隔"
+			}
+		},
+		{
+			"id": "ContraptionDataSettings_SlotScale",
+			"text": {
+				"en-US": "Save Slot Button Size",
+				"zh-Hans": "存档按钮大小"
+			}
+		},
+		{
+			"id": "ContraptionDataSettings_SlotPerRow",
+			"text": {
+				"en-US": "Save Slot Per Row (Wrap)",
+				"zh-Hans": "存档换行阈值(每行数量)"
+			}
+		},
+		{
+			"id": "ContraptionDataSettings_SlotRowHeight",
+			"text": {
+				"en-US": "Save Slot Row Height",
+				"zh-Hans": "存档换行高度"
+			}
+		},
+		{
+			"id": "UserSettings_Save",
+			"text": {
+				"en-US": "Save",
+				"zh-Hans": "保存"
+			}
+		},
+		{
+			"id": "UserSettings_Reset",
+			"text": {
+				"en-US": "Reset",
+				"zh-Hans": "重置"
+			}
+		},
+		{
+			"id": "GeneralSettings_Name",
+			"text": {
+				"en-US": "General Settings",
+				"zh-Hans": "通用设置"
+			}
+		},
+		{
+			"id": "GeneralSettings_GravityX",
+			"text": {
+				"en-US": "Gravity (X-Axis)",
+				"zh-Hans": "重力（X轴）"
+			}
+		},
+		{
+			"id": "GeneralSettings_GravityY",
+			"text": {
+				"en-US": "Gravity (Y-Axis)",
+				"zh-Hans": "重力（Y轴）"
+			}
+		},
+		{
+			"id": "GeneralSettings_TimeScale",
+			"text": {
+				"en-US": "Time Scale",
+				"zh-Hans": "时间倍速"
+			}
+		},
+		{
+			"id": "GeneralSettings_FullScreen",
+			"text": {
+				"en-US": "Full Screen",
+				"zh-Hans": "是否全屏"
+			}
+		},
+		{
+			"id": "AppInterfaceSettings_Name",
+			"text": {
+				"en-US": "App Interface Settings",
+				"zh-Hans": "应用界面设置"
+			}
+		},
+		{
+			"id": "AppInterfaceSettings_EnterButtonPositionX",
+			"text": {
+				"en-US": "Enter Button Position (X-Axis)",
+				"zh-Hans": "启动按键 位置（X轴）"
+			}
+		},
+		{
+			"id": "AppInterfaceSettings_EnterButtonPositionY",
+			"text": {
+				"en-US": "Enter Button Position (Y-Axis)",
+				"zh-Hans": "启动按键 位置（Y轴）"
+			}
+		},
+		{
+			"id": "AppInterfaceSettings_EnterButtonAlpha",
+			"text": {
+				"en-US": "Enter Button Alpha",
+				"zh-Hans": "启动按键 不透明度"
+			}
+		},
+		{
+			"id": "LevelSceneSettings_Name",
+			"text": {
+				"en-US": "Level Scene Settings",
+				"zh-Hans": "关卡场景设置"
+			}
+		},
+		{
+			"id": "LevelSceneSettings_TerrainScale",
+			"text": {
+				"en-US": "Terrain Scale",
+				"zh-Hans": "地形大小比例"
+			}
+		},
+		{
+			"id": "LevelSceneSettings_MinCameraScale",
+			"text": {
+				"en-US": "Min Field of View Scale",
+				"zh-Hans": "最小视野比例"
+			}
+		},
+		{
+			"id": "LevelSceneSettings_MaxCameraScale",
+			"text": {
+				"en-US": "Max Field of View Scale",
+				"zh-Hans": "最大视野比例"
+			}
+		},
+		{
+			"id": "LevelSceneSettings_HideRuntimeButtons",
+			"text": {
+				"en-US": "Hide Runtime Buttons (Except Part Buttons)",
+				"zh-Hans": "隐藏运行界面按键（除部件按键以外）"
+			}
+		},
+		{
+			"id": "LevelSceneSettings_HideStarAndDessertCounter",
+			"text": {
+				"en-US": "Hide Star And Dessert Counter",
+				"zh-Hans": "隐藏星盒与甜点计数器"
+			}
+		},
+		{
+			"id": "LevelSceneSettings_EnablePropertyPanel",
+			"text": {
+				"en-US": "Enable Property Panel",
+				"zh-Hans": "启用属性界面"
+			}
+		},
+		{
+			"id": "LevelSceneSettings_EnableEnhancedPropertyPanel",
+			"text": {
+				"en-US": "Enable Enhanced Property Panel",
+				"zh-Hans": "启用进阶式属性界面"
+			}
+		},
+		{
+			"id": "LevelSceneSettings_EnableCustomBackgroundColor",
+			"text": {
+				"en-US": "Enable Custom Background Color",
+				"zh-Hans": "启用自定义背景颜色"
+			}
+		},
+		{
+			"id": "LevelSceneSettings_CustomBackgroundColor",
+			"text": {
+				"en-US": "Custom Background Color",
+				"zh-Hans": "自定义背景颜色"
+			}
+		},
+		{
+			"id": "ButtonSettings_Name",
+			"text": {
+				"en-US": "Button Settings",
+				"zh-Hans": "按键系统设置"
+			}
+		},
+		{
+			"id": "ButtonSettings_Enabled",
+			"text": {
+				"en-US": "Enabled",
+				"zh-Hans": "启用新型按键"
+			}
+		},
+		{
+			"id": "ButtonSettings_ButtonScale",
+			"text": {
+				"en-US": "Button Scale",
+				"zh-Hans": "按键大小比例"
+			}
+		},
+		{
+			"id": "ButtonSettings_ScrollViewHeightScale",
+			"text": {
+				"en-US": "Scroll View Height Scale",
+				"zh-Hans": "滑动高度比例"
+			}
+		},
+		{
+			"id": "ButtonSettings_LayoutMode",
+			"text": {
+				"en-US": "Layout Mode",
+				"zh-Hans": "布局模式"
+			}
+		},
+		{
+			"id": "ButtonSettings_HighPartTypePriority",
+			"text": {
+				"en-US": "High Part Type Priority",
+				"zh-Hans": "部件类型优先"
+			}
+		},
+		{
+			"id": "ButtonSettings_MaxSeparationCount",
+			"text": {
+				"en-US": "Max Separation Count",
+				"zh-Hans": "最大载具分离数"
+			}
+		},
+		{
+			"id": "ButtonSettings_DisplayButtonIndex",
+			"text": {
+				"en-US": "Display Button Index",
+				"zh-Hans": "显示部件索引标记"
+			}
+		},
+		{
+			"id": "ContraptionDataSettings_Name",
+			"text": {
+				"en-US": "Contraption Data Settings",
+				"zh-Hans": "载具存档设置"
+			}
+		},
+		{
+			"id": "ContraptionDataSettings_Enabled",
+			"text": {
+				"en-US": "Enabled",
+				"zh-Hans": "启用新型载具存档"
+			}
+		},
+		{
+			"id": "ContraptionDataSettings_SlotCount",
+			"text": {
+				"en-US": "Slot Count",
+				"zh-Hans": "存档数"
+			}
+		},
+		{
+			"id": "ContraptionDataSettings_LoadFormat",
+			"text": {
+				"en-US": "Load Format",
+				"zh-Hans": "加载格式"
+			}
+		},
+		{
+			"id": "ContraptionDataSettings_SaveFormat",
+			"text": {
+				"en-US": "Save Format",
+				"zh-Hans": "保存格式"
+			}
+		},
+		{
+			"id": "ContraptionDataSettings_BackupData",
+			"text": {
+				"en-US": "Backup Data",
+				"zh-Hans": "备份存档数据"
+			}
+		},
+		{
+			"id": "ContraptionDataSettings_BackupOriginalData",
+			"text": {
+				"en-US": "Backup Original Data",
+				"zh-Hans": "备份旧版存档数据"
+			}
+		},
+		{
+			"id": "ContraptionDataSettings_SaveAsOriginalData",
+			"text": {
+				"en-US": "Save As Original Data",
+				"zh-Hans": "保存为旧版存档"
+			}
+		},
+		{
+			"id": "PartSettings_Name",
+			"text": {
+				"en-US": "Part Settings",
+				"zh-Hans": "部件设置"
+			}
+		},
+		{
+			"id": "PartSettings_NoDrag",
+			"text": {
+				"en-US": "No Drag",
+				"zh-Hans": "部件无阻力"
+			}
+		},
+		{
+			"id": "PartSettings_DisableAlienPartParticles",
+			"text": {
+				"en-US": "Disable Alien Part Particles",
+				"zh-Hans": "关闭外星部件特效"
+			}
+		},
+		{
+			"id": "PartSettings_EnableWaterSystem",
+			"text": {
+				"en-US": "Enable Water System",
+				"zh-Hans": "启用水域系统"
+			}
+		},
+		{
+			"id": "PartSettings_WaterLevel",
+			"text": {
+				"en-US": "Water Level",
+				"zh-Hans": "水位高度"
+			}
+		},
+		{
+			"id": "PartSettings_BuoyancyCoefficient",
+			"text": {
+				"en-US": "Buoyancy Coefficient",
+				"zh-Hans": "浮力系数"
+			}
+		},
+		{
+			"id": "PartSettings_RenderDisplacedArea",
+			"text": {
+				"en-US": "Render Displaced Area",
+				"zh-Hans": "渲染排水区域"
+			}
+		},
+		{
+			"id": "PartSettings_ColoredFrameSaturation1",
+			"text": {
+				"en-US": "Colored Frame Saturation 1",
+				"zh-Hans": "染色框 饱和度1"
+			}
+		},
+		{
+			"id": "PartSettings_ColoredFrameSaturation2",
+			"text": {
+				"en-US": "Colored Frame Saturation 2",
+				"zh-Hans": "染色框 饱和度2"
+			}
+		},
+		{
+			"id": "PartSettings_ColoredFrameBrightness1",
+			"text": {
+				"en-US": "Colored Frame Brightness 1",
+				"zh-Hans": "染色框 明度1"
+			}
+		},
+		{
+			"id": "PartSettings_ColoredFrameBrightness2",
+			"text": {
+				"en-US": "Colored Frame Brightness 2",
+				"zh-Hans": "染色框 明度2"
+			}
+		},
+		{
+			"id": "PartSettings_ColoredFrameBrightness3",
+			"text": {
+				"en-US": "Colored Frame Brightness 3",
+				"zh-Hans": "染色框 明度3"
+			}
+		},
+		{
+			"id": "PartSettings_JetEngineDefaultForce",
+			"text": {
+				"en-US": "JetEngine Default Force",
+				"zh-Hans": "喷气引擎 推力默认值"
+			}
+		},
+		{
+			"id": "PartSettings_JetEngineForceStep",
+			"text": {
+				"en-US": "JetEngine Force Step",
+				"zh-Hans": "喷气引擎 推力步进值"
+			}
+		},
+		{
+			"id": "DataPanel_TimeData",
+			"text": {
+				"en-US": "Time Data",
+				"zh-Hans": "时间数据"
+			}
+		},
+		{
+			"id": "DataPanel_Time",
+			"text": {
+				"en-US": "Time",
+				"zh-Hans": "时间"
+			}
+		},
+		{
+			"id": "DataPanel_RunningTime",
+			"text": {
+				"en-US": "Running Time",
+				"zh-Hans": "运行时间"
+			}
+		},
+		{
+			"id": "DataPanel_PerformanceData",
+			"text": {
+				"en-US": "Performance Data",
+				"zh-Hans": "性能数据"
+			}
+		},
+		{
+			"id": "DataPanel_FPS",
+			"text": {
+				"en-US": "FPS",
+				"zh-Hans": "帧率"
+			}
+		},
+		{
+			"id": "DataPanel_FixedFPS",
+			"text": {
+				"en-US": "Fixed FPS",
+				"zh-Hans": "固定帧率"
+			}
+		},
+		{
+			"id": "DataPanel_AllocatedManagedHeapSize",
+			"text": {
+				"en-US": "Allocated Managed Heap Size",
+				"zh-Hans": "已分配托管内存"
+			}
+		},
+		{
+			"id": "DataPanel_ReservedManagedHeapSize",
+			"text": {
+				"en-US": "Reserved Managed Heap Size",
+				"zh-Hans": "预留托管内存"
+			}
+		},
+		{
+			"id": "DataPanel_TotalAllocatedMemorySize",
+			"text": {
+				"en-US": "Total Allocated Memory Size",
+				"zh-Hans": "已分配总内存"
+			}
+		},
+		{
+			"id": "DataPanel_TotalReservedMemorySize",
+			"text": {
+				"en-US": "Total Reserved Memory Size",
+				"zh-Hans": "预留总内存"
+			}
+		},
+		{
+			"id": "DataPanel_DeviceData",
+			"text": {
+				"en-US": "Device Data",
+				"zh-Hans": "设备数据"
+			}
+		},
+		{
+			"id": "DataPanel_DeviceModel",
+			"text": {
+				"en-US": "Device Model",
+				"zh-Hans": "设备型号"
+			}
+		},
+		{
+			"id": "DataPanel_DeviceName",
+			"text": {
+				"en-US": "Device Name",
+				"zh-Hans": "设备名称"
+			}
+		},
+		{
+			"id": "DataPanel_DeviceType",
+			"text": {
+				"en-US": "Device Type",
+				"zh-Hans": "设备类型"
+			}
+		},
+		{
+			"id": "DataPanel_OperatingSystem",
+			"text": {
+				"en-US": "Operating System",
+				"zh-Hans": "操作系统"
+			}
+		},
+		{
+			"id": "DataPanel_ProcessorType",
+			"text": {
+				"en-US": "Processor Type",
+				"zh-Hans": "处理器类型"
+			}
+		},
+		{
+			"id": "DataPanel_ProcessorFrequency",
+			"text": {
+				"en-US": "Processor Frequency",
+				"zh-Hans": "处理器频率"
+			}
+		},
+		{
+			"id": "DataPanel_ProcessorCount",
+			"text": {
+				"en-US": "Processor Count",
+				"zh-Hans": "逻辑处理器数量"
+			}
+		},
+		{
+			"id": "DataPanel_GraphicsDeviceName",
+			"text": {
+				"en-US": "Graphics Device Name",
+				"zh-Hans": "图形设备名称"
+			}
+		},
+		{
+			"id": "DataPanel_GraphicsDeviceType",
+			"text": {
+				"en-US": "Graphics Device Type",
+				"zh-Hans": "图形设备类型"
+			}
+		},
+		{
+			"id": "DataPanel_GraphicsMemorySize",
+			"text": {
+				"en-US": "Graphics Memory Size",
+				"zh-Hans": "图形设备内存"
+			}
+		},
+		{
+			"id": "DataPanel_SystemMemorySize",
+			"text": {
+				"en-US": "System Memory Size",
+				"zh-Hans": "系统内存大小"
+			}
+		},
+		{
+			"id": "DataPanel_BatteryLevel",
+			"text": {
+				"en-US": "Battery Level",
+				"zh-Hans": "设备电池电量"
+			}
+		},
+		{
+			"id": "DataPanel_BatteryStatus",
+			"text": {
+				"en-US": "Battery Status",
+				"zh-Hans": "设备电池状态"
+			}
+		},
+		{
+			"id": "AddonSystem_Developer",
+			"text": {
+				"en-US": "Developer",
+				"zh-Hans": "开发者"
+			}
+		},
+		{
+			"id": "AddonSystem_Enabled",
+			"text": {
+				"en-US": "Enabled",
+				"zh-Hans": "启用"
+			}
+		},
+		{
+			"id": "AddonSystem_AutoStart",
+			"text": {
+				"en-US": "Auto-Start",
+				"zh-Hans": "自启动"
+			}
+		},
+		{
+			"id": "AddonSystem_Reload",
+			"text": {
+				"en-US": "RELOAD",
+				"zh-Hans": "重新加载"
+			}
+		},
+		{
+			"id": "AddonSystem_Unload",
+			"text": {
+				"en-US": "UNLOAD",
+				"zh-Hans": "卸载"
+			}
+		},
+		{
+			"id": "AddonSystem_Import",
+			"text": {
+				"en-US": "IMPORT",
+				"zh-Hans": "导入"
+			}
+		},
+		{
+			"id": "AddonSystem_StateLoading",
+			"text": {
+				"en-US": "Loading",
+				"zh-Hans": "状态正常 - 加载中"
+			}
+		},
+		{
+			"id": "AddonSystem_StateFailed",
+			"text": {
+				"en-US": "Failed",
+				"zh-Hans": "状态异常"
+			}
+		},
+		{
+			"id": "AddonSystem_StateDisabled",
+			"text": {
+				"en-US": "Disabled",
+				"zh-Hans": "状态正常 - 禁用中"
+			}
+		},
+		{
+			"id": "AddonSystem_StateEnabled",
+			"text": {
+				"en-US": "Enabled",
+				"zh-Hans": "状态正常 - 启用中"
+			}
+		},
+        {
+			"id": "CommandSystem_Notice",
+			"text": {
+				"en-US": "<b>Please read the following information carefully before using this command system.</b>\n\n<b>1.</b> Due to the limitations of Unity platform, this script engine is single-threaded. Therefore, the execution time and memory usage are unlimited. The code which contains dead loops or infinite recursions may cause your application to crash.\n\n<b>2.</b> This script engine can execute arbitrary code. It means that you can perform the following operations:\n- Manipulating the local computer's file system, e.g. file reading, writing, moving, copying, deleting, etc.\n- Create, access, or terminate processes and programs in the operating system.\n- Establish network connections and perform network operations.\n\n<b>Therefore, do not execute codes from unknown sources. If your computer system is hacked or damaged while executing unknown code, this application won't accept liability for that.</b>",
+				"zh-Hans": "<b>在使用该指令系统前，请仔细阅读以下内容：</b>\n\n<b>1.</b> 由于 Unity 平台限制，该指令系统的脚本引擎仅在单线程运行。 因此，代码的运行时间与占用内存空间将不受限制。 如果您在代码中加入死循环、无限深递归等内容，可能导致应用卡死、闪退等结果；\n\n<b>2.</b> 该指令系统的脚本引擎为任意代码执行的。这意味着，您能够实施以下操作：\n- 操作本地计算机的文件系统，例如进行文件读写、移动、复制、删除等操作；\n- 创建、访问或者终止操作系统中的进程与程序；\n- 建立网络连接，进行联网操作。\n\n<b>因此，切勿随意执行来源未明、功能未明的代码。 如果您因为执行未知代码而导致计算机系统受到入侵、破坏，本应用将不承担任何责任</b>。"
+			}
+		}
+	]
+}
